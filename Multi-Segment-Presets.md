@@ -5,16 +5,15 @@ This file contains advanced WLED presets that use multiple segments to create co
 ---
 
 ## Rainbow Sections
-*7 segments with different solid colors creating a rainbow pattern*
+*6 segments with different solid colors creating a rainbow pattern*
 
-**Segment Layout:**
-- Segment 0 (LEDs 0-15): Red & White
-- Segment 1 (LEDs 15-30): Blue
-- Segment 2 (LEDs 30-45): Green
-- Segment 3 (LEDs 45-60): Magenta
-- Segment 4 (LEDs 60-75): White
-- Segment 5 (LEDs 75-90): Blue
-- Segment 6 (LEDs 90-100): Red
+**Segment Layout (100 LEDs divided equally into 6 segments):**
+- Segment 0 (LEDs 0-17): Red & White — **17 LEDs**
+- Segment 1 (LEDs 17-34): Blue — **17 LEDs**
+- Segment 2 (LEDs 34-51): Green — **17 LEDs**
+- Segment 3 (LEDs 51-68): Magenta — **17 LEDs**
+- Segment 4 (LEDs 68-84): White — **16 LEDs**
+- Segment 5 (LEDs 84-100): Cyan — **16 LEDs**
 
 ```json
 {
@@ -26,7 +25,7 @@ This file contains advanced WLED presets that use multiple segments to create co
     {
       "id": 0,
       "start": 0,
-      "stop": 15,
+      "stop": 17,
       "grp": 1,
       "spc": 0,
       "of": 0,
@@ -55,8 +54,8 @@ This file contains advanced WLED presets that use multiple segments to create co
     },
     {
       "id": 1,
-      "start": 15,
-      "stop": 30,
+      "start": 17,
+      "stop": 34,
       "grp": 1,
       "spc": 0,
       "of": 0,
@@ -85,8 +84,8 @@ This file contains advanced WLED presets that use multiple segments to create co
     },
     {
       "id": 2,
-      "start": 30,
-      "stop": 45,
+      "start": 34,
+      "stop": 51,
       "grp": 1,
       "spc": 0,
       "of": 0,
@@ -115,8 +114,8 @@ This file contains advanced WLED presets that use multiple segments to create co
     },
     {
       "id": 3,
-      "start": 45,
-      "stop": 60,
+      "start": 51,
+      "stop": 68,
       "grp": 1,
       "spc": 0,
       "of": 0,
@@ -145,8 +144,8 @@ This file contains advanced WLED presets that use multiple segments to create co
     },
     {
       "id": 4,
-      "start": 60,
-      "stop": 75,
+      "start": 68,
+      "stop": 84,
       "grp": 1,
       "spc": 0,
       "of": 0,
@@ -175,37 +174,7 @@ This file contains advanced WLED presets that use multiple segments to create co
     },
     {
       "id": 5,
-      "start": 75,
-      "stop": 90,
-      "grp": 1,
-      "spc": 0,
-      "of": 0,
-      "on": true,
-      "frz": false,
-      "bri": 255,
-      "cct": 127,
-      "set": 0,
-      "n": "",
-      "col": [[0, 0, 255], [0, 0, 0], [0, 0, 0]],
-      "fx": 0,
-      "sx": 128,
-      "ix": 128,
-      "pal": 50,
-      "c1": 128,
-      "c2": 128,
-      "c3": 16,
-      "sel": true,
-      "rev": false,
-      "mi": false,
-      "o1": false,
-      "o2": false,
-      "o3": false,
-      "si": 0,
-      "m12": 0
-    },
-    {
-      "id": 6,
-      "start": 90,
+      "start": 84,
       "stop": 100,
       "grp": 1,
       "spc": 0,
@@ -216,7 +185,7 @@ This file contains advanced WLED presets that use multiple segments to create co
       "cct": 127,
       "set": 0,
       "n": "",
-      "col": [[255, 0, 0], [0, 0, 0], [0, 0, 0]],
+      "col": [[0, 255, 255], [0, 0, 0], [0, 0, 0]],
       "fx": 0,
       "sx": 128,
       "ix": 128,
