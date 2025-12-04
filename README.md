@@ -24,6 +24,13 @@ A comprehensive collection of 60+ ready-to-use WLED presets organized by theme:
 - **Effects**: Fireworks, Lightning, Digital Rain, Fireflies
 - **Customizable**: Sports Team colors, Accent Lighting
 
+### 🎨 [Multi-Segment-Presets.md](Multi-Segment-Presets.md)
+Advanced presets using multiple segments for complex lighting patterns:
+- Different colors/effects per segment
+- Zone-based lighting configurations
+- Detailed parameter explanations
+- Customization guides for multi-segment setups
+
 ### 📖 [GETTING_STARTED.md](GETTING_STARTED.md)
 Step-by-step guide for:
 - Setting up your WLED device
